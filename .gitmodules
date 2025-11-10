@@ -1,0 +1,3 @@
+[submodule "contract"]
+	path = contract
+	url = https://github.com/headF1rst/simple-dash-board-oas.git
