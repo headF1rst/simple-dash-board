@@ -3,6 +3,7 @@ package kuke.board.common.snowflake;
 import java.util.random.RandomGenerator;
 
 public class Snowflake {
+
 	private static final int UNUSED_BITS = 1;
 	private static final int EPOCH_BITS = 41;
 	private static final int NODE_ID_BITS = 10;
@@ -12,7 +13,6 @@ public class Snowflake {
 	private static final long maxSequence = (1L << SEQUENCE_BITS) - 1;
 
 	private final long nodeId = RandomGenerator.getDefault().nextLong(maxNodeId + 1);
-	// UTC = 2024-01-01T00:00:00Z
 	private final long startTimeMillis = 1704067200000L;
 
 	private long lastTimeMillis = startTimeMillis;

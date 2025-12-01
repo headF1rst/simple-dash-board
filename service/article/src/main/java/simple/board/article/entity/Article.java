@@ -1,4 +1,4 @@
-package simple.board.article;
+package simple.board.article.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

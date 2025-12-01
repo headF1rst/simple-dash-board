@@ -1,4 +1,7 @@
 package simple.board.article.service.request;
 
-public record ArticleUpdateRequest() {
+public record ArticleUpdateRequest(
+    String title,
+    String content
+) {
 }

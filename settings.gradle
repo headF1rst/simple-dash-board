@@ -1,5 +1,6 @@
 rootProject.name = 'simple-dash-board'
 
+include 'contract'
 include 'common'
 include 'common:snowflake'
 include 'service'

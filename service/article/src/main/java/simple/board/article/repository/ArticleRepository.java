@@ -1,4 +1,7 @@
 package simple.board.article.repository;
 
-public interface ArticleRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import simple.board.article.entity.Article;
+
+public interface ArticleRepository extends JpaRepository<Article, Long> {
 }
